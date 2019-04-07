@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+#header-nav{
+    background-color: gray;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+}
+#header-nav h1{
+    font-size: 22px;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+}
+#nav-list{
+    margin: 0;
+    min-height: 40px;
+    background-color: darkcyan;
+}
+.navbar-collapse{
+    padding: 0;
+}
+#nav-list a{
+    color: rgb(22, 4, 4);
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+#nav-list a:hover{
+    background-color: aqua;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    padding: 20px;
+}
+h1{
+    margin-bottom: 20px;
+}
+.menuDiv{
+    margin: 10px;
+    padding: 15px;
+    background-color: rgb(133, 133, 133);
+    color: rgb(24, 24, 24);
+    font-family: 'Arial', Times, serif;
+    font: 600;
+    font-size: 14px;
+}
+.sp{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
